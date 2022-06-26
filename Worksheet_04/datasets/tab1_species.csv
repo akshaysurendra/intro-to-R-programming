@@ -1,0 +1,8 @@
+Country,Scientific_Name,Common_Name,Family1,Activ2,Diet3,Soc4,Size5,Weight,SppCode
+Nepal,Canis aureus,Golden jackal,Canidae,No,O,G,ML,11,CAAU
+Nepal,Herpestes urva,Crab-eating mongoose,Herpestidae,Di,C,S,S,2,HEUR
+Nepal,Panthera pardus fusca,Indian leopard,Felidae,Di,C,S,L,100,PAPAF
+Nepal,Panthera tigris tigris,Bengal tiger,Felidae,No,C,S,L,250,PATIT
+Nepal,Prionailurus bengalensis,Leopard cat,Felidae,No,C,S,SM,2.5,PRBE
+Nepal,Viverricula indica,Small Indian civet,Viverridae,No,O,S,SM,5,VIIN
+Nepal,Viverra zibetha,Large Indian civet,Viverridae,No,O,S,ML,7,VIZI

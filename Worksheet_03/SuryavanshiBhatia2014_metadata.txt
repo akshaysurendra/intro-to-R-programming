@@ -1,0 +1,15 @@
+Paper doi: https://conbio.onlinelibrary.wiley.com/doi/abs/10.1111/cobi.12320
+Data repository doi: https://datadryad.org/stash/dataset/doi:10.5061/dryad.6f8p0
+
+(MODIFIED)
+Variable	Description
+
+Interviewer	Name of the interviewer
+BlockCode	Code given to the survey block
+ParticipantID	Id give to the person interviewed to maintain anonymity
+Sex		Sex of the participant
+Age		Age of the participant
+Barley_quintal	Barley production by the participant's family (multiples of 100 kilogram)
+GreenPea_sacks	Green pea production by the participant's family (multiples of packaging sacks)
+Sheep_goat	Number of sheep and goats owned by the participant's family
+LandArea_acre	Land holding of the participant's family

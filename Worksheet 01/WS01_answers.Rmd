@@ -1,0 +1,113 @@
+---
+title: "Worksheet 01 - Intro to R programming - NCBS MSc WL (Answers)"
+author: 'Akshay Surendra, Anand M Osuri'
+date: '23 - September - 2020'
+output:
+  pdf_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(include = TRUE,eval = TRUE, echo = TRUE)
+```
+
+Convert the following tasks to R commands and run them:
+
+  1. Create a vector `g` that stores even numbers from 10 to 20 in a sequence
+```{r}
+g <- seq(from = 10,to = 20,by = 2)
+```
+  
+  2. Find the logarithm (base-2) of each element of vector `g` in just one line of code (Clue: *vectorize*)
+```{r}
+logG <- log2(x = g) # built-in function specifically for log base-2
+logG
+logG <-log(x = g,base = 2) # generic log function where you can change the base
+```
+  
+  
+  3. Can you implement 1) and 2) above in one line of code?
+  (Clue: nested functions)
+```{r}
+logG <- log2(x = seq(from = 10,to = 20,by = 2))
+```
+  
+    
+  4. Run the following code *snippet* (another word for a block of code) in your R script \-
+```{r}
+  matrix(data = rnorm(n = 32,mean = 0,sd = 2),nrow = 4,ncol = 8)
+```
+  
+\underline{Next class}: read more about the `rnorm()` function and what it does - this is not required to answer the questions below
+  
+  5. Save the above matrix in an object and use appropriate indices to extract and print the following:
+```{r}
+obj1 <- matrix(data = rnorm(n = 32,mean = 0,sd = 2),nrow = 4,ncol = 8)#run once
+obj1
+```
+  
+    a. even-numbered columns
+```{r}
+# a
+obj1[,c(2,4,6,8)]
+```
+    
+    b. odd-numbered rows
+```{r}
+# b
+obj1[c(1,3),]
+```
+    
+    c. both even-numbered columns AND odd-numbered rows
+```{r}
+# c
+obj1[c(1,3),c(2,4,6,8)]
+```
+
+  6. In the above matrix, *check* if the following statements are true or false (Clue\- use one or more of these three operators: relational/logical/assignment):
+  
+  a. Is the 1st element of row 1 less than the 8th element of row 1?
+```{r}
+obj1[1,1] < obj1[1,8]
+```
+
+  b. Is the 4th element of column 1 more than the 6th element of column 1?
+  (Report any result you get, error or otherwise)
+```{r}
+# obj1[4,1] > obj1[6,1] ## gives you an error - subscript out of bounds
+```
+    
+  7. Learn what the function `substr()` does using the help command (and also the internet) and answer the following questions:
+  
+  a. Create a character vector object with 6 elements, and each element must hold the name of a bird native to your country (data type: ?)
+```{r}
+obj2 <- c("HoodedCrow","LaughingDove","Redwing","HazelGrouse","Gadwall","AmurFalcon")
+obj2
+```
+  
+  b. Identify and print the first 2 letters of each element in this vector
+```{r}
+first2_1 <- substr(x = obj2[1],start = 1,stop = 2) # includes the starting and ending index
+first2_2 <- substr(x = obj2[2],start = 1,stop = 2)
+first2_3 <- substr(x = obj2[3],start = 1,stop = 2)
+first2_4 <- substr(x = obj2[4],start = 1,stop = 2)
+first2_5 <- substr(x = obj2[5],start = 1,stop = 2)
+first2_6 <- substr(x = obj2[6],start = 1,stop = 2)
+
+first2_1
+first2_2
+first2_3
+first2_4
+first2_5
+first2_6
+
+```
+  
+  c. If you used 6 lines of code to implement 7-b, can you do it in 1 line? (clue \- *vectorize*)
+```{r}
+first2 <- c(NA,NA,NA,NA,NA,NA) # not required but good practice to define length first
+first2 <- NULL # empty vector, akin to saying, d <- data.frame()
+first2 <- substr(x = obj2,start = 1,stop = 2)
+first2
+
+```

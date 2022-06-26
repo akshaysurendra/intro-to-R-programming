@@ -1,0 +1,53 @@
+PointName,Site,Type,BirdID,Code,N_ind,Largebird_YN
+PUJ01_19,Puduthottam,Fragment,ashy drongo,AsDr,1,no
+PUD01_19,Puduthottam,Fragment,ashy drongo,AsDr,1,no
+ANJ01_19,Andiparai,Contiguous,asian fairy-bluebird,AFB,1,large
+ANM05_19,Andiparai,Contiguous,blyth's reed warbler,BRW,2,no
+PUD01_19,Puduthottam,Fragment,blyth's reed warbler,BRW,2,no
+V4D01_19,Varatuparai4,Fragment,blyth's reed warbler,BRW,3,no
+ANJ01_19,Andiparai,Contiguous,bronzed drongo,BrDr,1,no
+ANJ05_19,Andiparai,Contiguous,brown-cheeked fulvetta,BCF,2,no
+ANJ05_19,Andiparai,Contiguous,crimson-backed sunbird (small sunbird),CrSb,2,no
+ANM05_19,Andiparai,Contiguous,crimson-backed sunbird (small sunbird),CrSb,4,no
+PUA09_19,Puduthottam,Fragment,crimson-backed sunbird (small sunbird),CrSb,1,no
+ANJ05_19,Andiparai,Contiguous,great hornbill (great pied hornbill),GPH,1,large
+PUJ01_19,Puduthottam,Fragment,greater racket-tailed drongo,GRTD,1,no
+ANJ05_19,Andiparai,Contiguous,green/greenish warbler,GrWa,1,no
+ANM05_19,Andiparai,Contiguous,green/greenish warbler,GrWa,1,no
+ANJ01_19,Andiparai,Contiguous,green/greenish warbler,GrWa,1,no
+PUJ01_19,Puduthottam,Fragment,green/greenish warbler,GrWa,2,no
+PUA09_19,Puduthottam,Fragment,green/greenish warbler,GrWa,1,no
+PUD01_19,Puduthottam,Fragment,green/greenish warbler,GrWa,2,no
+V4D01_19,Varatuparai4,Fragment,green/greenish warbler,GrWa,1,no
+ANJ01_19,Andiparai,Contiguous,indian blackbird,InBl,2,no
+ANM05_19,Andiparai,Contiguous,indian blue robin,IBR,1,no
+PUJ01_19,Puduthottam,Fragment,indian yellow tit,IYT,2,no
+ANJ05_19,Andiparai,Contiguous,large-billed leaf warbler,LBLW,1,no
+PUJ01_19,Puduthottam,Fragment,large-billed leaf warbler,LBLW,1,no
+V4D01_19,Varatuparai4,Fragment,large-billed leaf warbler,LBLW,1,no
+PUD01_19,Puduthottam,Fragment,malabar whistling-thrush,MWT,1,large
+V4D01_19,Varatuparai4,Fragment,malabar whistling-thrush,MWT,1,large
+ANJ01_19,Andiparai,Contiguous,mountain imperial-pigeon,MWT,3,large
+PUJ01_19,Puduthottam,Fragment,nilgiri flowerpecker,NiFl,2,no
+PUA09_19,Puduthottam,Fragment,nilgiri flowerpecker,NiFl,2,no
+PUD01_19,Puduthottam,Fragment,nilgiri flowerpecker,NiFl,3,no
+V4D01_19,Varatuparai4,Fragment,nilgiri flowerpecker,NiFl,1,no
+PUJ01_19,Puduthottam,Fragment,old world flycatcher/chat sp.,NA,1,no
+PUD01_19,Puduthottam,Fragment,orange minivet,OrMi,4,no
+ANJ05_19,Andiparai,Contiguous,oriental white-eye,OWE,1,no
+ANM05_19,Andiparai,Contiguous,oriental white-eye,OWE,5,no
+PUD01_19,Puduthottam,Fragment,oriental white-eye,OWE,2,no
+V4D01_19,Varatuparai4,Fragment,oriental white-eye,OWE,2,no
+PUA09_19,Puduthottam,Fragment,puff-throated babbler,PTB,1,no
+ANM05_19,Andiparai,Contiguous,red spurfowl,Rspur,1,large
+PUJ01_19,Puduthottam,Fragment,red-whiskered bulbul,RWB,3,no
+PUJ01_19,Puduthottam,Fragment,rusty-tailed flycatcher,RTF,1,no
+PUJ01_19,Puduthottam,Fragment,small minivet,SmMi,1,no
+ANJ05_19,Andiparai,Contiguous,square-tailed bulbul (black bulbul),SqTB,1,no
+ANJ01_19,Andiparai,Contiguous,square-tailed bulbul (black bulbul),SqTB,7,no
+PUD01_19,Puduthottam,Fragment,velvet-fronted nuthatch,VFN,1,no
+ANJ01_19,Andiparai,Contiguous,white-cheeked barbet (small green barbet),WCB,1,no
+ANJ05_19,Andiparai,Contiguous,yellow-browed bulbul,YBB,3,no
+ANM05_19,Andiparai,Contiguous,yellow-browed bulbul,YBB,3,no
+ANJ01_19,Andiparai,Contiguous,yellow-browed bulbul,YBB,2,no
+PUJ01_19,Puduthottam,Fragment,yellow-browed bulbul,YBB,3,no
